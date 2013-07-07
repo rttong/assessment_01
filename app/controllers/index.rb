@@ -9,7 +9,7 @@ get '/events/:id/show' do |id|
 end
 
 get '/events/new' do
-  @event = Event.new # Why?
+  @event = Event.new
   erb :event_form
 end
 
